@@ -1,5 +1,5 @@
 body {
-  background-color: aliceblue;
+  background-color: darkblue;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ html{
 }
 
 #myCanvas {
-  border: 1px solid black;
+  border: 1px solid navy;
 }
 
 .container{
@@ -30,12 +30,16 @@ html{
   height: 450px;
   width: 600px;
   object-fit: cover;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 h2{
-  color: black;
+  color: blue;
 /*   font-size: 10px; */
+}
+p{
+  color: navy;
+  font-size: 18px;
 }
 
 #start{

@@ -1,18 +1,25 @@
-var snowX = [100, 120, 160, 200];
-var snowY = [50, 70, 40, 20];
+var winter = loadImage("https://images.app.goo.gl/Gh2PMNpePZVbjU587(1460,0)")
 
 setup = function() {
    size(600, 450); 
    background(164, 212, 255);
-  
-   textSize(40);
-   for(var i = 0; i < snowX.length; i++){
-     text("❆", snowX[i], snowY[i]);
-   }
    
-   fill(255,255,255);
-   rect(-10, 300, 610, 150);
+   
+ var SnowX =[0,25,35];
+var SnowY =[0,100,35];
+var SnowL =[0,100,65];
 
+textSize(100);
+ text("❄️", SnowX[0], 300);
+ text("❄️", SnowY[1], 300);
+ text("⛄", SnowL[2], 200);
+
+textSize(20);
+var x = 0;
+while(x < 400){
+text("🧊", x, 200);
+x += 20;
+}
 }
 
 
