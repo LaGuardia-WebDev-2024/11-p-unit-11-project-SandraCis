@@ -10,9 +10,9 @@ var SnowY =[0,100,35];
 var SnowL =[0,100,65];
 
 textSize(100);
- text("❄️", WaveX[0], 300);
- text("❄️", WaveY[1], 300);
- text("⛄", WaveL[2], 200);
+ text("❄️", SnowX[0], 300);
+ text("❄️", SnowY[1], 300);
+ text("⛄", SnowL[2], 200);
 
 textSize(20);
 var x = 0;
